@@ -1,0 +1,132 @@
+body {
+    color: #1a1a1a;
+    background-color: #ffffff;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button.mbtn {
+    padding: 0.6em 2em;
+    border-radius: 8px;
+    color: #1a1a1a;
+    background-color: #ffffff;
+    font-size: 1.1em;
+    border: 0;
+    cursor: pointer;
+    margin: 1em;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+#navbar li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+    color: green;
+}
+
+section {
+    /* float: left; */
+    position: relative;
+    background: #ffffff;
+    z-index: 1;
+    width: 100%;
+}
+
+.n {
+    padding-right: 45%;
+    font-size: 25px;
+    color: #000;
+}
+
+.logo {
+    width: 65px;
+    height: 35px;
+}
+
+.sep {
+    padding-top: 90px;
+    padding-left: 120px;
+}
+
+.card-img-top {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.section-separator {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 20px 0;
+}
+
+.section-separator:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 3px;
+    width: 50px;
+    border-radius: 3px;
+    z-index: 2;
+    background-color: green;
+    margin-left: -25px;
+}
+
+.section-title {
+    float: left;
+    position: relative;
+    width: 100%;
+    padding-top: 80px;
+}
+
+.section-title p {
+    color: #7d93b2;
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.section-title h2 {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #007aff;
+    font-size: 34px;
+    font-weight: 800;
+    position: relative;
+}
+
+#product1 {
+    padding-left: 30px;
+    text-align: center;
+}
